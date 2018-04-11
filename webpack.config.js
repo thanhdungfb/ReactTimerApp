@@ -26,6 +26,7 @@ module.exports = {
             Main: 'app/components/Main.jsx',
             Timer: 'app/components/Timer.jsx',
             CountDown: 'app/components/CountDown.jsx',
+            Clock: 'app/components/Clock.jsx',
             Navigation: 'app/components/Navigation.jsx',
             applicationStyles: 'app/styles/app.scss'
         },

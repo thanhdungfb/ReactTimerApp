@@ -74,3 +74,5 @@ npm install karma@0.13.22 karma-chrome-launcher@0.2.2 karma-mocha@0.2.2 karma-mo
 added 132 packages in 10.889s
 
 https://karma-runner.github.io/2.0/index.html
+
+npm install react-addons-test-utils@0.14.6 --save-dev
