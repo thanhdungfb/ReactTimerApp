@@ -1,3 +1,9 @@
 @import "base/variable";
 @import "components/navigation";
 @import "components/clock";
+
+// Fixed temp foundation style:
+.large-4{
+    width: 600px;
+    margin: 0px auto;
+}

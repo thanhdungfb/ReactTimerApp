@@ -76,3 +76,6 @@ added 132 packages in 10.889s
 https://karma-runner.github.io/2.0/index.html
 
 npm install react-addons-test-utils@0.14.6 --save-dev
+
+L-73: The test does not run: npm test 
+=> fixed: if() and it()
