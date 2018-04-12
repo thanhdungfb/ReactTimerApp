@@ -1,11 +1,19 @@
 @import "base/variable";
+
+// foundation
+@import 'base/foundation-settings';
+@import "foundation";
+@include foundation-everything;
+
+
+// Components
 @import "components/navigation";
 @import "components/clock";
 @import "components/control";
 @import "components/page-title";
 
 // Fixed temp foundation style:
-.large-4{
-    width: 600px;
-    margin: 0px auto;
-}
+// .large-4{
+//     width: 600px;
+//     margin: 0px auto;
+// }
