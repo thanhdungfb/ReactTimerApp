@@ -19,7 +19,7 @@ describe('Controls', ()=>{
             var $el = $(ReactDOM.findDOMNode(controls));
             var $pauseButton = $el.find('button:contains(Pause)');
             
-            expect($pauseButton.length).toBe(1);// NOT YES PASSED
+            expect($pauseButton.length).toBe(1);
         });
 
         it('should render START when paused', ()=>{
@@ -27,7 +27,7 @@ describe('Controls', ()=>{
             var $el = $(ReactDOM.findDOMNode(controls));
             var $startButton = $el.find('button:contains(Start)');
             
-            expect($startButton.length).toBe(1);// NOT YES PASSED
+            expect($startButton.length).toBe(1);
         });
     });
 });
